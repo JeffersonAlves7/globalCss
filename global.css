@@ -7,9 +7,17 @@
 a{
     text-decoration: none;
 }
-
+img{
+    max-width: 100%;
+}
 li{
     list-style: none;
+}
+.w-max-content{
+    width: max-content;
+}
+.h-max-content{
+    height: max-content;
 }
 /* displayFlex property*/
 .flex{
@@ -17,6 +25,9 @@ li{
 }
 .fd-c{
     flex-direction: column;
+}
+.gap-0-5{
+    gap: 0.5rem
 }
 .gap-1{
     gap: 1rem
@@ -47,7 +58,19 @@ li{
     .jc-se{
         justify-content: space-evenly;
     }
+.grid{
+    display: grid;
+}
+    .grid-tc-3{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid-ji-c{
+        justify-items: center;
+    }
 /* padding property & margin property */
+.p-0-5{
+    padding: 0.5rem;
+}
 .p-1{
     padding: 1rem;
 }
@@ -71,21 +94,27 @@ li{
 }
 
 /* font property &  text property */
-    .font-2{
-        font-size: 2rem;
-    }
-    .font-1-5{
-        font-size: 1.5rem;
-    }
-    .bold{
-        font-weight: bold;
-    }
-    .italic{
-        font-weight: italic;
-    }
-    .text-dec-n{
-        text-decoration: none;
-    }
+.font-tiny{
+    font-size: 0.7rem;
+}
+.font-medium{
+    font-size: 0.9rem;
+}
+.font-1-5{
+    font-size: 1.5rem;
+}
+.font-2{
+    font-size: 2rem;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-weight: italic;
+}
+.text-dec-n{
+    text-decoration: none;
+}
 
 /* circle */
 .make-circle{
@@ -116,3 +145,12 @@ li{
     .transition-duration-2s{
         transition-duration: 2s;
     }
+
+.shadow{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.border-1{
+    border-radius: 0.5rem;
+}
+/* Classes complexas */
