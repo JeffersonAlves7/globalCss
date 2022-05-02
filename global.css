@@ -67,12 +67,30 @@ li{
     .grid-ji-c{
         justify-items: center;
     }
+.none{
+    display: none;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
 /* padding property & margin property */
 .p-0-5{
     padding: 0.5rem;
 }
+.p-05_1{
+    padding: 0.5rem 1rem;
+}
 .p-1{
     padding: 1rem;
+}
+.p-05_2{
+    padding: 0.5rem 2rem;
+}
+.p-1_2{
+    padding: 1rem 2rem;
 }
 .p-2{
     padding: 2rem;
