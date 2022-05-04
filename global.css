@@ -130,6 +130,9 @@ li{
 .italic{
     font-weight: italic;
 }
+.underline{
+    text-decoration: underline;
+}
 .text-dec-n{
     text-decoration: none;
 }
